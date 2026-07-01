@@ -14,8 +14,7 @@ public class Oficina {
 		soma = v1 + v2;
 		System.out.println("Soma: de " + v1 + "+" +v2+ "=" + soma );
 			System.out.printf("\nTotal Soma: R$ %.5f%n" , soma);
-		DecimalFormat formato = new DecimalFormat("#,##0.00");
-		
+			DecimalFormat formato = new DecimalFormat("#,##0.00");
 		
 		subtraçao = v1 - v2;
 		
@@ -41,8 +40,15 @@ public class Oficina {
 		System.out.printf("\nTotal resto: R$ %.5f%n" , resto); 
 		System.out.printf("mudança de valores ================");
 		
+	
 		
-		System.out.println("Soma R$ " + formata.format(soma));
+		
+		
+		System.out.println("MUDANÇA DE VALORES");
+		System.out.println("Soma R$ " + formatar.format(soma));
+		System.out.println("subtraçao R$ " + formatar.format(subtraçao));
+		System.out.println("multiplicaçao R$ " + formatar.format(multiplicaçao));
+		
 		
 		
 		
