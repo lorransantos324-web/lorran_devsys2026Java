@@ -23,17 +23,17 @@ public class condicionalifOficine {
 	 
 	 if (media>=7 ) {
 		 System.out.printf("APROVADO com media %.2fn" , media);
-		 else if(media>=4) {
-			  
-			 sysout
-		 }else
+	 } else if(media>=4) {
+	   System.out.printf("RECUPERAÇÃO com media %.2fn" , media);
+		 }else {
+			 System.out.printf("REPROVADO com media %.2fn" , media);
 	 
 	 
 	 
-	 
+	}
 	 
 
-	
+
 	
 }	
 }
