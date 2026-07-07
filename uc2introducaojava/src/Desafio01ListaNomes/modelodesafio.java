@@ -1,0 +1,50 @@
+package Desafio01ListaNomes;
+import java.util.Scanner;
+import java.util.ArrayList;
+public class modelodesafio {
+
+	    public static void main(String[] args) {
+
+	        Scanner entrada = new Scanner(System.in);
+	        ArrayList<String> lista = new ArrayList<>();
+
+	        int opcao;
+
+	        do {
+	            System.out.println("===== MENU =====");
+	            System.out.println("1 - Cadastrar");
+	            System.out.println("2 - Listar");
+	            System.out.println("0 - Sair");
+	            System.out.print("Escolha uma opção: ");
+	            opcao = entrada.nextInt();
+
+	            entrada.nextLine();
+
+	            switch (opcao) {
+	                case 1:
+	                    // cadastrar
+	                    break;
+
+	                case 2:
+	                    // listar
+	                    break;
+
+	                case 0:
+	                    System.out.println("Sistema encerrado.");
+	                    break;
+
+	                default:
+	                    System.out.println("Opção inválida.");
+	            }
+
+	            System.out.println();
+
+	        } while (opcao != 0);
+
+	        entrada.close();
+	    }
+	
+
+	}
+
+
