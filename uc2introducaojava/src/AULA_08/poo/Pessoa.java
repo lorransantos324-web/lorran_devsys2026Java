@@ -19,7 +19,7 @@ public class Pessoa {
     	System.out.println("Altura :"+ altura);
     	System.out.println("peso" + peso);
     
-    	
+    	 
     	
     
     	
